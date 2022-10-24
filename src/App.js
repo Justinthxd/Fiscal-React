@@ -1,13 +1,12 @@
-import './App.css';
+import './components/Login.css';
 import Links from './components/Links';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './components/Login';
 
 function App() {
   return (
-    <div className="Container p-4">
-      <div className='row'>
-        <Links />
-      </div>
+    <div className="page">
+      <Login />
     </div>
   );
 }
