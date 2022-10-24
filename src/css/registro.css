@@ -1,0 +1,75 @@
+
+.form{
+    height: 95vh;
+    width: 100vw;
+    background-image: url("../../public/img/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.625);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.card span{
+    text-align: center;
+    
+}
+.card{
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 20px;
+    min-width: 350px;
+    font-size: 16px;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(150, 150, 150);
+}
+.card h1{
+    padding: 5px;
+}
+.card input{
+    width: 95%;
+    height: 48px;
+}
+.card input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+}
+.btn-registro{
+    width: 50%;
+    height: .5em;
+    color: white;
+    background-color: rgba(22, 90, 28, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    border: none;
+
+}
+.card [required]:valid{
+    border: thin solid #00B74A;
+}
+.card [required]:invalid{
+    border: thin solid #F93154;
+}
+.input{
+    padding: 10px;
+}
+
+p{
+    padding: 10px 0 5px 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-registro:hover {
+    transform: scale(1.10);
+    background-color: rgba(22, 90, 28, 0.733);
+}
